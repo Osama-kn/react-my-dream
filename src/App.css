@@ -1,0 +1,31 @@
+.left,
+.right {
+    padding: 2rem;
+}
+
+.content {
+    height: 100vh;
+}
+
+@media (min-width: 992px) {
+    .content {
+        background-image: url('/src/assets/background.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .left {
+        padding-right: 8rem !important;
+    }
+
+    .right {
+        padding-left: 3rem !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .left {
+        display: none !important;
+    }
+}

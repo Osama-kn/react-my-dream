@@ -1,0 +1,28 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-right: 3rem;
+}
+
+form label {
+    color: #fff;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+form input {
+    padding: 0 0 1rem 0;
+    transition: border 0.3s;
+    color: #fff;
+    font-size: 25px;
+}
+
+form input:focus {
+    outline: none !important;
+}
+
+form input::placeholder{
+    color: #fff;
+}

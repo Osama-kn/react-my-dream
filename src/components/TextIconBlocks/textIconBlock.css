@@ -1,0 +1,13 @@
+.text-icon-block img {
+    width: 4rem;
+    padding-right: .4rem;
+}
+
+.text-icon-block p {
+    font-weight: 500;
+    margin: auto;
+}
+
+.text-icon-block {
+    margin-bottom: 2rem;
+}
